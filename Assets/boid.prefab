@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: f80565f1d4e9d9741ab822cea5a5866b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f80565f1d4e9d9741ab822cea5a5866b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 10
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f80565f1d4e9d9741ab822cea5a5866b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 10
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f80565f1d4e9d9741ab822cea5a5866b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -117,7 +117,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8afbf8b5cb66bc24e8bb8c8a48dc4196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigidBody: {fileID: 0}
+  rigidBody: {fileID: 4704192958434421656}
+  maxSpeed: 2
+  maxXlR: 3
 --- !u!54 &4704192958434421656
 Rigidbody:
   m_ObjectHideFlags: 0
